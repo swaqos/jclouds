@@ -1,0 +1,337 @@
+{
+  "orderDate": "2018-01-09T16:41:13-06:00",
+  "orderDetails": {
+    "bigDataOrderFlag": false,
+    "billingInformation": {
+      "billingAddressLine1": "",
+      "billingCity": "",
+      "billingCountryCode": "US",
+      "billingEmail": "",
+      "billingNameCompany": "",
+      "billingNameFirst": "",
+      "billingNameLast": "",
+      "billingPhoneVoice": "",
+      "billingPostalCode": "",
+      "billingState": "",
+      "cardExpirationMonth": null,
+      "cardExpirationYear": null,
+      "euSupported": null,
+      "taxExempt": 0
+    },
+    "billingOrderItemId": null,
+    "containerSplHash": "",
+    "currencyShortName": "USD",
+    "extendedHardwareTesting": null,
+    "imageTemplateId": null,
+    "isManagedOrder": null,
+    "itemCategoryQuestionAnswers": [],
+    "location": "1441195",
+    "locationObject": {
+      "id": 1441195,
+      "longName": "Dallas 10",
+      "name": "dal10"
+    },
+    "message": "",
+    "packageId": 805,
+    "paymentType": "ADD_TO_BALANCE",
+    "postTaxRecurring": "0.018",
+    "postTaxRecurringHourly": "0.018",
+    "postTaxRecurringMonthly": "0",
+    "postTaxSetup": "0",
+    "preTaxRecurring": "0.018",
+    "preTaxRecurringHourly": "0.018",
+    "preTaxRecurringMonthly": "0",
+    "preTaxSetup": "0",
+    "presetId": null,
+    "prices": [
+      {
+        "hourlyRecurringFee": "0",
+        "id": 199445,
+        "itemId": 10043,
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "recurringFee": "0",
+        "setupFee": "0",
+        "categories": [
+          {
+            "categoryCode": "load_balancer_as_a_service",
+            "id": 1116,
+            "name": "Load Balancer As A Service"
+          }
+        ],
+        "item": {
+          "capacity": "0",
+          "description": "Load Balancer as a Service",
+          "id": 10043,
+          "keyName": "LOAD_BALANCER_AS_A_SERVICE",
+          "bundle": [],
+          "thirdPartyPolicyAssignments": []
+        }
+      },
+      {
+        "hourlyRecurringFee": "0",
+        "id": 199465,
+        "itemId": 10051,
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "recurringFee": "0",
+        "setupFee": "0",
+        "categories": [
+          {
+            "categoryCode": "load_balancer_bandwidth",
+            "id": 1117,
+            "name": "Load Balancer Bandwidth"
+          }
+        ],
+        "item": {
+          "capacity": "0",
+          "description": "Load Balancer Bandwidth",
+          "id": 10051,
+          "keyName": "LOAD_BALANCER_BANDWIDTH",
+          "units": "GB",
+          "bundle": [],
+          "thirdPartyPolicyAssignments": []
+        }
+      },
+      {
+        "hourlyRecurringFee": "0",
+        "id": 205837,
+        "itemId": 10771,
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "recurringFee": "0",
+        "setupFee": "0",
+        "categories": [
+          {
+            "categoryCode": "load_balancer_data_processed",
+            "id": 1228,
+            "name": "Load Balancer Data Processed"
+          }
+        ],
+        "item": {
+          "description": "Load Balancer Data Processed ",
+          "id": 10771,
+          "keyName": "LOAD_BALANCER_DATA_PROCESSED",
+          "units": "GIGABYTE",
+          "bundle": [],
+          "thirdPartyPolicyAssignments": []
+        }
+      },
+      {
+        "hourlyRecurringFee": ".018",
+        "id": 205975,
+        "itemId": 10785,
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "recurringFee": "0",
+        "setupFee": "0",
+        "categories": [
+          {
+            "categoryCode": "load_balancer_uptime",
+            "id": 1119,
+            "name": "Load Balancer Uptime"
+          }
+        ],
+        "item": {
+          "capacity": "0",
+          "description": "Load Balancer Uptime",
+          "id": 10785,
+          "keyName": "LOAD_BALANCER_UPTIME",
+          "units": "hour",
+          "bundle": [],
+          "thirdPartyPolicyAssignments": []
+        }
+      }
+    ],
+    "primaryDiskPartitionId": null,
+    "privateCloudOrderFlag": false,
+    "properties": [],
+    "proratedInitialCharge": "0",
+    "proratedOrderTotal": "0",
+    "quantity": 1,
+    "resourceGroupId": null,
+    "resourceGroupTemplateId": null,
+    "sendQuoteEmailFlag": null,
+    "serverCoreCount": null,
+    "sourceVirtualGuestId": null,
+    "sshKeys": [],
+    "stepId": null,
+    "storageGroups": [],
+    "taxCacheHash": "",
+    "taxCompletedFlag": false,
+    "totalRecurringTax": "0",
+    "totalSetupTax": "0",
+    "useHourlyPricing": true,
+    "virtualGuests": [
+      {
+        "accountId": 690867,
+        "domain": "",
+        "fullyQualifiedDomainName": "",
+        "hostname": "",
+        "id": 12345678,
+        "maxCpu": 2,
+        "maxCpuUnits": "CORE",
+        "maxMemory": 4096,
+        "startCpus": 2,
+        "statusId": 1001,
+        "uuid": "99jf83c8-9175-ff86-15c5-eda91jf9jfn8",
+        "globalIdentifier": "9573ja09-g80c-4c3b-bc9a-9575jf294d8f"
+      }
+    ],
+    "description": "test description",
+    "name": "testName",
+    "protocolConfigurations": [
+      {
+        "backendPort": 80,
+        "backendProtocol": "HTTP",
+        "frontendPort": 80,
+        "frontendProtocol": "HTTP",
+        "loadBalancingMethod": "ROUNDROBIN",
+        "maxConn": null,
+        "tlsCertificateId": null
+      }
+    ],
+    "serverInstancesInformation": [
+      {
+        "privateIpAddress": "10.163.179.210",
+        "weight": 60
+      }
+    ],
+    "subnets": [
+      {
+        "cidr": null,
+        "id": 1492856,
+        "isCustomerOwned": null,
+        "isCustomerRoutable": null,
+        "modifyDate": null,
+        "networkVlanId": null,
+        "version": null
+      }
+    ],
+    "useSystemPublicIpPool": true
+  },
+  "orderId": 22038561,
+  "placedOrder": {
+    "accountId": 701927,
+    "id": 22038192,
+    "orderQuoteId": null,
+    "orderTypeId": 4,
+    "presaleEventId": null,
+    "status": "PENDING_AUTO_APPROVAL",
+    "userRecordId": 6605827,
+    "account": {
+      "brandId": 58265,
+      "companyName": "",
+      "id": 683710
+    },
+    "items": [
+      {
+        "categoryCode": "load_balancer_as_a_service",
+        "description": "Load Balancer as a Service",
+        "hourlyRecurringFee": "0",
+        "id": 287189175,
+        "itemId": 10043,
+        "itemPriceId": "199445",
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "parentId": null,
+        "promoCodeId": null,
+        "recurringFee": "0",
+        "setupFee": "0",
+        "children": [
+          {
+            "categoryCode": "load_balancer_bandwidth",
+            "description": "Load Balancer Bandwidth",
+            "hourlyRecurringFee": "0",
+            "id": 287189177,
+            "itemId": 10051,
+            "itemPriceId": "199465",
+            "laborFee": "0",
+            "oneTimeFee": "0",
+            "parentId": 287189175,
+            "promoCodeId": null,
+            "recurringFee": "0",
+            "setupFee": "0"
+          },
+          {
+            "categoryCode": "load_balancer_uptime",
+            "description": "Load Balancer Uptime",
+            "hourlyRecurringFee": ".018",
+            "id": 287189179,
+            "itemId": 10785,
+            "itemPriceId": "205975",
+            "laborFee": "0",
+            "oneTimeFee": "0",
+            "parentId": 287189175,
+            "promoCodeId": null,
+            "recurringFee": "0",
+            "setupFee": "0"
+          },
+          {
+            "categoryCode": "load_balancer_data_processed",
+            "description": "Load Balancer Data Processed ",
+            "hourlyRecurringFee": "0",
+            "id": 287189181,
+            "itemId": 10771,
+            "itemPriceId": "205837",
+            "laborFee": "0",
+            "oneTimeFee": "0",
+            "parentId": 287189175,
+            "promoCodeId": null,
+            "recurringFee": "0",
+            "setupFee": "0"
+          }
+        ]
+      },
+      {
+        "categoryCode": "load_balancer_bandwidth",
+        "description": "Load Balancer Bandwidth",
+        "hourlyRecurringFee": "0",
+        "id": 287189177,
+        "itemId": 10051,
+        "itemPriceId": "199465",
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "parentId": 287189175,
+        "promoCodeId": null,
+        "recurringFee": "0",
+        "setupFee": "0"
+      },
+      {
+        "categoryCode": "load_balancer_uptime",
+        "description": "Load Balancer Uptime",
+        "hourlyRecurringFee": ".018",
+        "id": 287189179,
+        "itemId": 10785,
+        "itemPriceId": "205975",
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "parentId": 287189175,
+        "promoCodeId": null,
+        "recurringFee": "0",
+        "setupFee": "0"
+      },
+      {
+        "categoryCode": "load_balancer_data_processed",
+        "description": "Load Balancer Data Processed ",
+        "hourlyRecurringFee": "0",
+        "id": 287189181,
+        "itemId": 10771,
+        "itemPriceId": "205837",
+        "laborFee": "0",
+        "oneTimeFee": "0",
+        "parentId": 287189175,
+        "promoCodeId": null,
+        "recurringFee": "0",
+        "setupFee": "0"
+      }
+    ],
+    "userRecord": {
+      "accountId": 690867,
+      "firstName": "testFirstName",
+      "id": 6710597,
+      "lastName": "testLastName",
+      "username": ""
+    }
+  }
+}

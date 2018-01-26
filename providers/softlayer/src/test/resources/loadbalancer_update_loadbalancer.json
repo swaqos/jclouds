@@ -1,0 +1,68 @@
+{
+  "accountId": 690923,
+  "address": "jcloudsTest-690867-dal10.lb.bluemix.net",
+  "createDate": "2017-11-30T04:48:26-06:00",
+  "description": "This is a new description from jclouds API live test",
+  "id": 170811,
+  "isPublic": 1,
+  "locationId": 1441195,
+  "modifyDate": "2017-11-30T04:53:39-06:00",
+  "name": "jcloudsTest",
+  "operatingStatus": "ONLINE",
+  "provisioningStatus": "ACTIVE",
+  "useSystemPublicIpPool": 1,
+  "uuid": "12ccb5c0-397a-3f56-9527-241cf4c11f69",
+  "datacenter": {
+    "id": 1441195,
+    "longName": "Dallas 10",
+    "name": "dal10",
+    "statusId": 2
+  },
+  "healthMonitors": [
+    {
+      "createDate": "2017-11-30T04:48:26-06:00",
+      "id": 138401,
+      "interval": 20,
+      "maxRetries": 10,
+      "modifyDate": "2018-01-16T15:27:26-06:00",
+      "monitorType": "HTTP",
+      "provisioningStatus": "ACTIVE",
+      "timeout": 10,
+      "urlPath": "/",
+      "uuid": "33f4c489-a976-33i5-a943-e2ad1ace402d"
+    }
+  ],
+  "listeners": [
+    {
+      "connectionLimit": null,
+      "createDate": "2017-11-30T04:48:26-06:00",
+      "id": 214302,
+      "modifyDate": "2017-11-30T04:53:39-06:00",
+      "protocol": "HTTP",
+      "protocolPort": 80,
+      "provisioningStatus": "ACTIVE",
+      "tlsCertificateId": null,
+      "uuid": "eb22863a-3ac8-23u1-80c1-7af29bd523e3",
+      "defaultPool": {
+        "createDate": "2017-11-30T04:48:26-06:00",
+        "loadBalancingAlgorithm": "WEIGHTED_RR",
+        "modifyDate": "2017-11-30T04:53:39-06:00",
+        "protocol": "HTTP",
+        "protocolPort": 8080,
+        "provisioningStatus": "ACTIVE",
+        "uuid": "58008f09-968d-0a86-18f7-50a4105830cf"
+      }
+    }
+  ],
+  "members": [
+    {
+      "address": "10.177.197.218",
+      "createDate": "2017-11-30T04:48:26-06:00",
+      "id": 199769,
+      "modifyDate": "2017-11-30T04:53:39-06:00",
+      "provisioningStatus": "ACTIVE",
+      "uuid": "1ed40744-92t5-8sd9-jd64-d9811ed393eb",
+      "weight": 50
+    }
+  ]
+}

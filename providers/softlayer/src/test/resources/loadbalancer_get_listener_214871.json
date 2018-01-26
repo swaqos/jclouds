@@ -1,0 +1,20 @@
+{
+  "connectionLimit": null,
+  "createDate": "2017-11-30T04:48:26-06:00",
+  "id": 214871,
+  "modifyDate": "2017-11-30T04:53:39-06:00",
+  "protocol": "HTTP",
+  "protocolPort": 80,
+  "provisioningStatus": "ACTIVE",
+  "tlsCertificateId": null,
+  "uuid": "eb22863a-8yy3-98d3-80c1-7af29bd523e3",
+  "defaultPool": {
+    "createDate": "2017-11-30T04:48:26-06:00",
+    "loadBalancingAlgorithm": "WEIGHTED_RR",
+    "modifyDate": "2017-11-30T04:53:39-06:00",
+    "protocol": "HTTP",
+    "protocolPort": 8080,
+    "provisioningStatus": "ACTIVE",
+    "uuid": "58008f09-968d-0a86-18f7-50a4105830cf"
+  }
+}

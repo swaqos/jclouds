@@ -19,6 +19,7 @@ package org.jclouds.softlayer;
 import org.jclouds.rest.annotations.Delegate;
 import org.jclouds.softlayer.features.AccountApi;
 import org.jclouds.softlayer.features.DatacenterApi;
+import org.jclouds.softlayer.features.LoadBalancerApi;
 import org.jclouds.softlayer.features.NetworkApi;
 import org.jclouds.softlayer.features.SoftwareDescriptionApi;
 import org.jclouds.softlayer.features.VirtualGuestApi;
@@ -63,4 +64,10 @@ public interface SoftLayerApi extends Closeable {
     */
    @Delegate
    NetworkApi getNetworkApi();
+
+   /**
+    * Provides access to Load Balancer features.
+    */
+   @Delegate
+   LoadBalancerApi getLoadBalancerApi();
 }
